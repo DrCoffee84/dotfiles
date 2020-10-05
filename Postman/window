@@ -1,0 +1,8 @@
+{"type":"requester","id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60","browserWindowId":4,"activeSession":"435dc26b-10aa-4495-b7c7-3dbbc8d32fb6","position":{"x":688,"y":29},"size":{"width":673,"height":176},"visibility":{"maximized":false,"isFullScreen":false},"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$deleted":true,"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"type":"requester","id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60","browserWindowId":3,"activeSession":"435dc26b-10aa-4495-b7c7-3dbbc8d32fb6","position":{"x":null,"y":null},"size":{"width":1280,"height":800},"visibility":{"maximized":false,"isFullScreen":false},"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"$$deleted":true,"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"type":"requester","id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60","browserWindowId":3,"activeSession":"435dc26b-10aa-4495-b7c7-3dbbc8d32fb6","position":{"x":0,"y":24},"size":{"width":1366,"height":744},"visibility":{"maximized":false,"isFullScreen":false},"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"$$deleted":true,"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}
+{"type":"requester","id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60","browserWindowId":3,"activeSession":"435dc26b-10aa-4495-b7c7-3dbbc8d32fb6","position":{"x":0,"y":24},"size":{"width":1366,"height":744},"visibility":{"maximized":false,"isFullScreen":false},"_id":"39ceb12b-e2f9-4535-8ef9-ab6467b59b60"}

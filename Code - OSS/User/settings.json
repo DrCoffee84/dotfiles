@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'Ubuntu Mono Nerd','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "explorer.confirmDelete": false,
+    "workbench.editor.showTabs": false,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 1
+}

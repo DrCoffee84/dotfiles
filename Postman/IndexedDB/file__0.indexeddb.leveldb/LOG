@@ -1,0 +1,14 @@
+2020/09/22-10:26:58.768 14e8 Reusing MANIFEST /home/dboullon/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/09/22-10:26:58.768 14e8 Recovering log #8
+2020/09/22-10:26:58.768 14e8 Reusing old log /home/dboullon/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000008.log 
+2020/09/22-10:26:58.768 14e8 Delete type=2 #7
+2020/09/22-10:27:06.781 159d Level-0 table #13: started
+2020/09/22-10:27:06.784 159d Level-0 table #13: 3498 bytes OK
+2020/09/22-10:27:06.789 159d Delete type=0 #8
+2020/09/22-10:27:06.789 159d Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 2515 : 1
+2020/09/22-10:27:06.789 159d Compacting 1@0 + 1@1 files
+2020/09/22-10:27:06.793 159d Generated table #14@0: 1366 keys, 16212 bytes
+2020/09/22-10:27:06.793 159d Compacted 1@0 + 1@1 files => 16212 bytes
+2020/09/22-10:27:06.797 159d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/22-10:27:06.797 159d Delete type=2 #13
+2020/09/22-10:27:06.797 159d Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 2515 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

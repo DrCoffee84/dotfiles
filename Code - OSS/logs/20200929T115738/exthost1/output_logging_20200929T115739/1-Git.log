@@ -1,0 +1,357 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --git-dir
+Open repository: /home/dboullon/git/flow-openshift-cicd-pipelines
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :vars/runCIPipeline.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipeline.groovy
+> git cat-file -s 14f257ca503fe316e46437604e6a4f608feeb6dd
+> git show --textconv :vars/runCIPipeline copy.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipeline copy.groovy
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars/gatherParameters.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/gatherParameters.groovy
+> git cat-file -s 41765d0301505ab1da145614ef88876cf8b541db
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git show --textconv :vars/master.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/master.groovy
+> git cat-file -s ec72a7038beb4d54e1aa7e3d74397bb9b8c67add
+> git show --textconv :vars/makeMailBody.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/makeMailBody.groovy
+> git cat-file -s 577cce3638b5b0524796795d0b0eec6cab17aeda
+> git show --textconv :vars/gitClone.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/gitClone.groovy
+> git cat-file -s 4a36aee6f6fb11aa3a6ee6701b4fdbd9e7b8308f
+> git show --textconv :vars/applyTemplate.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/applyTemplate.groovy
+> git cat-file -s 1c3d3021780e365a14fecc68b56dda86b67059cd
+> git show --textconv :vars/gatherParameters.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/gatherParameters.groovy
+> git cat-file -s 41765d0301505ab1da145614ef88876cf8b541db
+> git show --textconv :vars/master.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/master.groovy
+> git cat-file -s ec72a7038beb4d54e1aa7e3d74397bb9b8c67add
+> git show --textconv :vars/makeMailBody.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/makeMailBody.groovy
+> git cat-file -s 577cce3638b5b0524796795d0b0eec6cab17aeda
+> git show --textconv :vars/promoteImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/promoteImage.groovy
+> git cat-file -s 69648ee356618b592c27e0fe6f99815ced62b6ec
+> git show --textconv :vars/runCIPipeline.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipeline.groovy
+> git cat-file -s 14f257ca503fe316e46437604e6a4f608feeb6dd
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git show --textconv :vars/runCIPipeline.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipeline.groovy
+> git cat-file -s 14f257ca503fe316e46437604e6a4f608feeb6dd
+> git show --textconv :vars/runCDPipelineFront.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCDPipelineFront.groovy
+> git cat-file -s 9d6a21445ebcd04b15c2a2940644bbfa0939a001
+> git show --textconv :vars/promoteImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/promoteImage.groovy
+> git cat-file -s 69648ee356618b592c27e0fe6f99815ced62b6ec
+> git show --textconv :vars/runCIPipeline.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipeline.groovy
+> git cat-file -s 14f257ca503fe316e46437604e6a4f608feeb6dd
+> git show --textconv :vars/deployImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/deployImage.groovy
+> git cat-file -s f4753db53c83c34dd5213dc9558142c1fd32c547
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars/buildImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/buildImage.groovy
+> git cat-file -s d70fb3fac5088eefb398d48de297c99ce68fe4f7
+> git show --textconv :vars/runCDPipelineFront.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCDPipelineFront.groovy
+> git cat-file -s 9d6a21445ebcd04b15c2a2940644bbfa0939a001
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars/runCDPipelineFront.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCDPipelineFront.groovy
+> git cat-file -s 9d6a21445ebcd04b15c2a2940644bbfa0939a001
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars/buildImageFront.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/buildImageFront.groovy
+> git cat-file -s feb687168c3292aaf6f5ffbd6906ed8a6e3f37cf
+> git show --textconv :vars/buildImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/buildImage.groovy
+> git cat-file -s d70fb3fac5088eefb398d48de297c99ce68fe4f7
+> git show --textconv :vars/buildImageFront.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/buildImageFront.groovy
+> git cat-file -s feb687168c3292aaf6f5ffbd6906ed8a6e3f37cf
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git show --textconv :vars/tagImage.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/tagImage.groovy
+> git cat-file -s d14cbafab921dbc6b404fa8d83028f4e89857d1f
+> git show --textconv :vars/runCIPipelineCanary.groovy
+> git ls-files --stage -- /home/dboullon/git/flow-openshift-cicd-pipelines/vars/runCIPipelineCanary.groovy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dboullon/git/flow-openshift-cicd-pipelines/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

@@ -1,0 +1,83 @@
+18:45:09.985: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+18:45:09.985: CPU Speed: 800.319MHz
+18:45:09.986: Physical Cores: 4, Logical Cores: 8
+18:45:09.986: Physical Memory: 7697MB Total, 5346MB Free
+18:45:09.986: Kernel Version: Linux 5.8.7-arch1-1
+18:45:09.986: Distribution: "Arch Linux" Unknown
+18:45:09.987: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+18:45:09.989: Portable mode: false
+18:45:10.070: OBS 25.0.8-2 (linux)
+18:45:10.070: ---------------------------------
+18:45:10.070: ---------------------------------
+18:45:10.070: audio settings reset:
+18:45:10.070: 	samples per sec: 44100
+18:45:10.070: 	speakers:        2
+18:45:10.076: ---------------------------------
+18:45:10.076: Initializing OpenGL...
+18:45:10.153: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+18:45:10.153: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.7, shading language 4.60
+18:45:10.166: ---------------------------------
+18:45:10.166: video settings reset:
+18:45:10.166: 	base resolution:   1366x768
+18:45:10.166: 	output resolution: 1364x768
+18:45:10.166: 	downscale filter:  Bicubic
+18:45:10.166: 	fps:               60/1
+18:45:10.166: 	format:            NV12
+18:45:10.166: 	YUV mode:          601/Partial
+18:45:10.166: NV12 texture support not available
+18:45:10.168: Audio monitoring device:
+18:45:10.168: 	name: Por defecto
+18:45:10.168: 	id: default
+18:45:10.168: ---------------------------------
+18:45:10.170: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+18:45:10.228: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:45:10.228: No blackmagic support
+18:45:10.239: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:45:10.239: 
+18:45:10.239: FFMPEG VAAPI supported
+18:45:10.239: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:45:10.239: 
+18:45:10.239: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+18:45:10.246: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:45:10.246: 
+18:45:10.246: Couldn't find VLC installation, VLC video source disabled
+18:45:10.246: ---------------------------------
+18:45:10.246:   Loaded Modules:
+18:45:10.246:     vlc-video.so
+18:45:10.246:     text-freetype2.so
+18:45:10.246:     rtmp-services.so
+18:45:10.246:     obs-x264.so
+18:45:10.246:     obs-transitions.so
+18:45:10.246:     obs-outputs.so
+18:45:10.246:     obs-filters.so
+18:45:10.246:     obs-ffmpeg.so
+18:45:10.246:     linux-v4l2.so
+18:45:10.246:     linux-pulseaudio.so
+18:45:10.246:     linux-jack.so
+18:45:10.246:     linux-decklink.so
+18:45:10.246:     linux-capture.so
+18:45:10.246:     linux-alsa.so
+18:45:10.246:     image-source.so
+18:45:10.246:     frontend-tools.so
+18:45:10.246:     decklink-ouput-ui.so
+18:45:10.246: ---------------------------------
+18:45:10.246: ==== Startup complete ===============================================
+18:45:10.246: Service '' not found
+18:45:10.248: All scene data cleared
+18:45:10.248: ------------------------------------------------
+18:45:10.249: pulse-input: Server name: 'pulseaudio 13.0'
+18:45:10.250: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:45:10.250: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+18:45:10.250: [Loaded global audio device]: 'Audio del escritorio'
+18:45:10.251: pulse-input: Server name: 'pulseaudio 13.0'
+18:45:10.251: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:45:10.251: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+18:45:10.251: [Loaded global audio device]: 'Mic/Aux'
+18:45:10.254: alsa-input: Failed to open 'default': Dispositivo o recurso ocupado
+18:45:10.254: xshm-input: Geometry 1366x768 @ 0,0
+18:45:10.791: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+18:45:10.791: 
+18:45:11.255: Switched to scene 'Escena'
+18:45:11.255: ------------------------------------------------
+18:45:11.255: Loaded scenes:
+18:45:11.255: - scene 'Escena':

@@ -1,0 +1,8 @@
+[Added Associations]
+application/zip=Alacritty.desktop;userapp-"unzip"-7H3QQ0.desktop;
+application/json=code-oss.desktop;
+text/plain=sublime_text.desktop;
+
+[Default Applications]
+application/zip=userapp-"unzip"-7H3QQ0.desktop
+x-scheme-handler/postman=Postman.desktop

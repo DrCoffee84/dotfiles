@@ -1,0 +1,617 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --git-dir
+Open repository: /home/dboullon/git/DrCoffee84/promos-menshen
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git check-ignore -v -z --stdin
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s a43803b484fcd41183f9c9f54c7b0c0d4015493b
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git check-ignore -v -z --stdin
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s a43803b484fcd41183f9c9f54c7b0c0d4015493b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git symbolic-ref --short HEAD
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git show --textconv :README.rst
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/README.rst
+> git cat-file -s 91eb141422fcf3fcbfebe786dcdd64dee22517be
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git check-ignore -v -z --stdin
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git show --textconv :package-lock.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package-lock.json
+> git cat-file -s 09e369c0048be9752916cd963d2df25fff70e859
+> git check-ignore -v -z --stdin
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/config/config.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/src/config/config.json
+> git cat-file -s 304f5b2c7f5f0a4b97a93ea3c683af93d291e92c
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git check-ignore -v -z --stdin
+> git show --textconv :src/config/config.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/src/config/config.json
+> git cat-file -s 304f5b2c7f5f0a4b97a93ea3c683af93d291e92c
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/config/config.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/src/config/config.json
+> git cat-file -s 304f5b2c7f5f0a4b97a93ea3c683af93d291e92c
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s d7cf1ba5015fab4b29cda667735bf4aabd78f2d6
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:package-lock.json
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/package-lock.json
+> git show --textconv HEAD:openshift/template.yaml
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git show --textconv HEAD:openshift/pipelines/ci/Jenkinsfile
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:openshift/template.yaml
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git show --textconv HEAD:package-lock.json
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/package-lock.json
+> git show --textconv HEAD:openshift/template.yaml
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git show --textconv HEAD:package-lock.json
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/package-lock.json
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git ls-tree -l HEAD -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s 3676fa493534fe85d26921e2ef6a271bbdbb2c3b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s 3676fa493534fe85d26921e2ef6a271bbdbb2c3b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/environments/dev/templateParameters.txt
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/environments/dev/templateParameters.txt
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s 3676fa493534fe85d26921e2ef6a271bbdbb2c3b
+> git show --textconv :openshift/environments/dev/templateParameters.txt
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/environments/dev/templateParameters.txt
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s 7f8c209b055f151ef00769c933d64c9e22e8d6c2
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s 3676fa493534fe85d26921e2ef6a271bbdbb2c3b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git rev-parse master
+> git cat-file -s 4b619f408824111355f76642ea593e5c6fb31f88
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show --textconv :openshift/template.yaml
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/pipelines/ci/Jenkinsfile
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/pipelines/ci/Jenkinsfile
+> git cat-file -s a15d57d79fc0728971179fcdb1211f3fd064e2ca
+> git show --textconv :openshift/environments/dev/templateParameters.txt
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/environments/dev/templateParameters.txt
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git cat-file -s 12a351632ed092e4f8d387abb2036a5078b4d031
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/package.json
+> git rev-parse master
+> git cat-file -s 95fab7125dd6896143a877071b2884a25846e05a
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show --textconv :package.json
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :openshift/template.yaml
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git cat-file -s 4b619f408824111355f76642ea593e5c6fb31f88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/dboullon/git/DrCoffee84/promos-menshen/openshift/template.yaml
+> git symbolic-ref --short HEAD
+> git cat-file -s dc4f04c9dc86bea60e434bd808f0c1832252113d
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :openshift/template.yaml
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

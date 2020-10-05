@@ -1,0 +1,108 @@
+18:59:36.685: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+18:59:36.685: CPU Speed: 1158.798MHz
+18:59:36.686: Physical Cores: 4, Logical Cores: 8
+18:59:36.687: Physical Memory: 7697MB Total, 6968MB Free
+18:59:36.687: Kernel Version: Linux 5.8.7-arch1-1
+18:59:36.687: Distribution: "Arch Linux" Unknown
+18:59:36.687: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+18:59:36.690: Portable mode: false
+18:59:36.805: OBS 25.0.8-2 (linux)
+18:59:36.805: ---------------------------------
+18:59:36.806: ---------------------------------
+18:59:36.806: audio settings reset:
+18:59:36.806: 	samples per sec: 44100
+18:59:36.806: 	speakers:        2
+18:59:36.816: ---------------------------------
+18:59:36.816: Initializing OpenGL...
+18:59:36.893: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+18:59:36.893: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.7, shading language 4.60
+18:59:36.914: ---------------------------------
+18:59:36.914: video settings reset:
+18:59:36.914: 	base resolution:   1366x768
+18:59:36.914: 	output resolution: 1364x768
+18:59:36.914: 	downscale filter:  Bicubic
+18:59:36.914: 	fps:               60/1
+18:59:36.914: 	format:            NV12
+18:59:36.914: 	YUV mode:          601/Partial
+18:59:36.914: NV12 texture support not available
+18:59:36.916: Audio monitoring device:
+18:59:36.916: 	name: Por defecto
+18:59:36.916: 	id: default
+18:59:36.916: ---------------------------------
+18:59:36.921: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+18:59:36.973: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:59:36.973: No blackmagic support
+18:59:37.041: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:59:37.041: 
+18:59:37.041: FFMPEG VAAPI supported
+18:59:37.047: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:59:37.047: 
+18:59:37.047: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+18:59:37.075: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+18:59:37.075: 
+18:59:37.075: Couldn't find VLC installation, VLC video source disabled
+18:59:37.075: ---------------------------------
+18:59:37.075:   Loaded Modules:
+18:59:37.075:     vlc-video.so
+18:59:37.075:     text-freetype2.so
+18:59:37.075:     rtmp-services.so
+18:59:37.075:     obs-x264.so
+18:59:37.075:     obs-transitions.so
+18:59:37.075:     obs-outputs.so
+18:59:37.075:     obs-filters.so
+18:59:37.075:     obs-ffmpeg.so
+18:59:37.075:     linux-v4l2.so
+18:59:37.075:     linux-pulseaudio.so
+18:59:37.075:     linux-jack.so
+18:59:37.075:     linux-decklink.so
+18:59:37.075:     linux-capture.so
+18:59:37.075:     linux-alsa.so
+18:59:37.075:     image-source.so
+18:59:37.075:     frontend-tools.so
+18:59:37.075:     decklink-ouput-ui.so
+18:59:37.075: ---------------------------------
+18:59:37.075: ==== Startup complete ===============================================
+18:59:37.076: Service '' not found
+18:59:37.080: All scene data cleared
+18:59:37.080: ------------------------------------------------
+18:59:37.658: pulse-input: Server name: 'pulseaudio 13.0'
+18:59:37.659: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:59:37.659: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+18:59:37.660: [Loaded global audio device]: 'Audio del escritorio'
+18:59:37.661: pulse-input: Server name: 'pulseaudio 13.0'
+18:59:37.662: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:59:37.662: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+18:59:37.663: [Loaded global audio device]: 'Mic/Aux'
+18:59:37.665: xshm-input: Geometry 1366x768 @ 0,0
+18:59:37.671: Switched to scene 'Escena'
+18:59:37.672: ------------------------------------------------
+18:59:37.672: Loaded scenes:
+18:59:37.672: - scene 'Escena':
+18:59:37.676:     - source: 'Captura de pantalla (XSHM)' (xshm_input)
+18:59:37.676: ------------------------------------------------
+18:59:38.196: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+18:59:38.196: 
+18:59:45.476: ---------------------------------
+18:59:45.476: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+18:59:45.476: [x264 encoder: 'simple_h264_recording'] profile: high
+18:59:45.477: [x264 encoder: 'simple_h264_recording'] settings:
+18:59:45.477: 	rate_control: CRF
+18:59:45.477: 	bitrate:      0
+18:59:45.477: 	buffer size:  0
+18:59:45.477: 	crf:          21
+18:59:45.477: 	fps_num:      60
+18:59:45.477: 	fps_den:      1
+18:59:45.477: 	width:        1364
+18:59:45.477: 	height:       768
+18:59:45.477: 	keyint:       250
+18:59:45.477: 
+18:59:45.492: ---------------------------------
+18:59:45.494: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+18:59:45.494: 
+18:59:45.505: ==== Recording Start ===============================================
+18:59:45.505: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/dboullon/2020-09-14 18-59-45.mp4'...
+18:59:58.049: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/dboullon/2020-09-14 18-59-45.mp4' stopped
+18:59:58.049: Output 'simple_file_output': stopping
+18:59:58.049: Output 'simple_file_output': Total frames output: 725
+18:59:58.049: Output 'simple_file_output': Total drawn frames: 752
+18:59:58.049: ==== Recording Stop ================================================
