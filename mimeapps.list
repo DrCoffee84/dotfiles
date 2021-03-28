@@ -2,6 +2,8 @@
 application/zip=Alacritty.desktop;userapp-"unzip"-7H3QQ0.desktop;
 application/json=code-oss.desktop;
 text/plain=sublime_text.desktop;
+application/x-shellscript=sublime_text.desktop;
+application/vnd.debian.binary-package=userapp-"unzip"-7H3QQ0.desktop;
 
 [Default Applications]
 application/zip=userapp-"unzip"-7H3QQ0.desktop

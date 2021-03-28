@@ -3,10 +3,144 @@
 	[
 	],
 	"last_version": 3211,
-	"last_window_id": 1,
+	"last_window_id": 2,
 	"log_indexing": false,
 	"settings":
 	{
+		"new_window_height": 744.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/dboullon/Desktop/pasos para buildear una imagen",
+				"/home/dboullon/configTLS",
+				"/home/dboullon/auth-menshen-vs.yaml",
+				"/home/dboullon/Downloads/accesos.yaml"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"\"",
+					"fastify"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1366.0
 	},
 	"windows":
 	[
@@ -20,14 +154,40 @@
 			"buffers":
 			[
 				{
-					"contents": "1. hacer el discovery de la app ( ver configurancion )\n2. oc new-build {imagen} --binary --name {nombre_build}\n3. oc start-build {nombre_build} --from-dir={directorio del codigo (como hacer un \"git clone\")}\n4. oc new-app {ImageStream:tag}",
-					"file": "/home/dboullon/Desktop/pasos para buildear una imagen",
-					"file_size": 220,
-					"file_write_time": 132452820023435886,
+					"contents": "Usuario Telecom: \n  email: dboullon@proveedor.teco.com.ar\n  user: u903075@telecom\n  password: Yz644856\n  passwordNew: r3dh4t01!\n  team: dboullon@redhat.com\n  \n  userJuanchi: u908388\n  password: Bautista1!\n  \n     LAB: \n    https://console-openshift-console.apps.pepper.40cd.sandbox45.opentlc.com/    \n    \nOCP 3.11:\n    NO PROD ESTOMBA: https://api-ocp-re.cloudteco.com.ar/\n    NO PROD PACHECO: https://api-ocp-rp.cloudteco.com.ar/\n    PROD ESTOMBA: https://api-ocp-pe.cloudteco.com.ar/\n    PROD PACHECO: https://api-ocp-pp.cloudteco.com.ar/\nOCP 4:\n    NO PROD ESTOMBA:  https://console-openshift-console.apps.ocp4-re.cloudteco.com.ar\n        api: api.ocp4-re.cloudteco.com.ar\n    NO PROD PACHECO: https://console-openshift-console.apps.ocp4-rp.cloudteco.com.arº\n        api: api.ocp4-rp.cloudteco.com.ar\n    PROD ESTOMBA: https://console-openshift-console.apps.ocp4-pe.cloudteco.com.ar\n        api: api.ocp4-pe.cloudteco.com.ar\n    PROD PACHECO: https://console-openshift-console.apps.ocp4-pp.cloudteco.com.ar \n        api: api.ocp4-pp.cloudteco.com.ar\n#  iam@teco.com.ar  // maneja perfiles\n#  soportetuid@teco.com.ar // \n\n-- las variables de entorno del pod template maven hacen que se trave, hay que ver poque (poner de nuevo los pvc)\n\n\n\nPasos:\n    1. agregar namespace al jenkins ( sync )\n    2. Si usan stash cambiar a bitbucker\n    3. cambiar branch en el pipeline ( de master a openshift4 ) asi usa las nuevas librerias con modificaciones\n    4. ver tema de quota y limites en el namespace (por defecto es muy baja y tarda mucho el build)\n    5. tema de accesos a ip externas\n    \n    \n    1. faltaba un secret ! \n\n      \n\nNamespace con pipeline que tardan 50 años:\n    Namespaces de CODI:\n        Pdd-portaldiagnostico-dev\n        Pdd-portaldiagnostico-test\n        Pdd-portaldiagnostico-uat\n        Pdd-portaldiagnostico-prod\n    Problemas:\n       Agentes de .net\n       Storas\n       tiempo de aprovacion de 1 hora\n    Soluciones:  \n       1 cantidad de pod de jenkins\n       2 uso de esos pods capacidad\n       3 pipelines optimizar      ",
+					"file": "/home/dboullon/Downloads/accesos.yaml",
+					"file_size": 2101,
+					"file_write_time": 132594540872441842,
 					"settings":
 					{
-						"buffer_size": 238,
+						"buffer_size": 2050,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "env:\n  - name: TZ\n    value: America/Argentina/Buenos_Aires\n  - name: HTTP_PROXY\n  - name: HTTPS_PROXY\n  - name: http_proxy\n  - name: https_proxy\n  - name: ENVIRONMENT\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: ENVIRONMENT\n  - name: URL_ORQUESTADOR_DIAGNOSTICO\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: URL_ORQUESTADOR_DIAGNOSTICO\n  - name: URL_SEGURIDAD\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: URL_SEGURIDAD\n  - name: URL_SMP\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: URL_SMP\n  - name: URL_MINERVA\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: URL_MINERVA\n  - name: CLIENTE_ID\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: CLIENTE_ID\n  - name: CLIENT_SECRET\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: CLIENT_SECRET\n  - name: ALLOW_SCOPE\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: ALLOW_SCOPE\n  - name: MAILFROM\n    value: codi@telecom.ar\n  - name: SMTP\n    value: smtpappl01.telecom.arg.telecom.com.ar\n  - name: ACCEPTED_ROLES\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: ACCEPTED_ROLES\n  - name: USER_FAN577\n    valueFrom:\n      secretKeyRef:\n        name: fan\n        key: USERNAME_FAN577\n  - name: PASSWORD_FAN577\n    valueFrom:\n      secretKeyRef:\n        name: fan\n        key: PASSWORD_FAN577\n  - name: CONSUMERSECRET_FAN576\n    valueFrom:\n      secretKeyRef:\n        name: fan\n        key: CONSUMERSECRET_FAN576\n  - name: URL_MIDDLEWARE_FAN_577\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: URL_MIDDLEWARE_FAN_577\n  - name: TIMEOUT\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: TIMEOUT\n  - name: GRAYLOG_HOST\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: GRAYLOG_HOST\n  - name: GRAYLOG_PORT\n    valueFrom:\n      configMapKeyRef:\n        name: codi-branch-config\n        key: GRAYLOG_PORT\n  - name: AUTH_LDAP_TECO_USERNAME\n    valueFrom:\n      secretKeyRef:\n        name: ldap-teco\n        key: USERNAME\n  - name: AUTH_LDAP_TECO_PASSWORD\n    valueFrom:\n      secretKeyRef:\n        name: ldap-teco\n        key: PASSWORD\n  - name: AUTH_FAN_USERNAME\n    valueFrom:\n      secretKeyRef:\n        name: user-auth-fan\n        key: USERNAME\n  - name: AUTH_FAN_PASSWORD\n    valueFrom:\n      secretKeyRef:\n        name: user-auth-fan\n        key: PASSWORD\n  - name: AUTH_FAN_PROFILE\n    valueFrom:\n      secretKeyRef:\n        name: user-auth-fan\n        key: PROFILE\n",
+					"settings":
+					{
+						"buffer_size": 2743,
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "kind: DeploymentConfig\napiVersion: apps.openshift.io/v1\nmetadata:\n  annotations:\n    kubectl.kubernetes.io/last-applied-configuration: >\n      {\"apiVersion\":\"apps.openshift.io/v1\",\"kind\":\"DeploymentConfig\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"ms-dtb-diagnostico\"},\"name\":\"ms-dtb-diagnostico\",\"namespace\":\"pdd-portaldiagnostico-dev\"},\"spec\":{\"replicas\":1,\"selector\":{\"deploymentConfig\":\"ms-dtb-diagnostico\"},\"strategy\":{\"type\":\"Rolling\"},\"template\":{\"metadata\":{\"labels\":{\"deploymentConfig\":\"ms-dtb-diagnostico\",\"name\":\"ms-dtb-diagnostico\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"TZ\",\"value\":\"America/Argentina/Buenos_Aires\"},{\"name\":\"HTTP_PROXY\",\"value\":null},{\"name\":\"HTTPS_PROXY\",\"value\":null},{\"name\":\"http_proxy\",\"value\":null},{\"name\":\"https_proxy\",\"value\":null},{\"name\":\"URL_DTB\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"URL_DTB\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"MAIL_TO\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"MAIL_TO\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"MAIL_FROM\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"MAIL_FROM\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"SMTP\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"SMTP\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"USER\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"USERNAME\",\"name\":\"oracle\"}}},{\"name\":\"PASSWORD\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"PASSWORD\",\"name\":\"oracle\"}}},{\"name\":\"DATA_SOURCE\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"DATASOURCE\",\"name\":\"oracle\"}}},{\"name\":\"AUTH_USERNAME\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"USERNAME\",\"name\":\"dtb\"}}},{\"name\":\"AUTH_PASSWORD\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"PASSWORD\",\"name\":\"dtb\"}}}],\"image\":\"ms-dtb-diagnostico:latest\",\"livenessProbe\":{\"failureThreshold\":3,\"initialDelaySeconds\":50,\"periodSeconds\":10,\"successThreshold\":1,\"tcpSocket\":{\"port\":8080},\"timeoutSeconds\":30},\"name\":\"ms-dtb-diagnostico\",\"ports\":[{\"containerPort\":8080,\"protocol\":\"TCP\"}],\"readinessProbe\":{\"failureThreshold\":3,\"httpGet\":{\"path\":\"/status\",\"port\":8080,\"scheme\":\"HTTP\"},\"initialDelaySeconds\":50,\"periodSeconds\":10,\"successThreshold\":1,\"timeoutSeconds\":30},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"512Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"256Mi\"}}}]}},\"triggers\":[]}}\n    openshift.io/backup-registry-hostname: 'docker-registry.default.svc:5000'\n    openshift.io/backup-server-version: '1.11'\n    openshift.io/migration-registry: ''\n    openshift.io/restore-registry-hostname: 'image-registry.openshift-image-registry.svc:5000'\n    openshift.io/restore-server-version: '1.19'\n  selfLink: >-\n    /apis/apps.openshift.io/v1/namespaces/pdd-portaldiagnostico-dev/deploymentconfigs/ms-dtb-diagnostico\n  resourceVersion: '445023734'\n  name: ms-dtb-diagnostico\n  uid: 9854f833-c7d3-451f-a304-6a28a5ffb511\n  creationTimestamp: '2021-03-04T19:50:46Z'\n  generation: 5\n  managedFields:\n    - manager: velero-server\n      operation: Update\n      apiVersion: apps.openshift.io/v1\n      time: '2021-03-04T19:50:46Z'\n      fieldsType: FieldsV1\n      fieldsV1:\n        'f:metadata':\n          'f:annotations':\n            .: {}\n            'f:kubectl.kubernetes.io/last-applied-configuration': {}\n            'f:openshift.io/backup-registry-hostname': {}\n            'f:openshift.io/backup-server-version': {}\n            'f:openshift.io/migration-registry': {}\n            'f:openshift.io/restore-registry-hostname': {}\n            'f:openshift.io/restore-server-version': {}\n          'f:labels':\n            .: {}\n            'f:app': {}\n            'f:migration.openshift.io/migrated-by-migmigration': {}\n            'f:migration.openshift.io/migrated-by-migplan': {}\n            'f:velero.io/backup-name': {}\n            'f:velero.io/restore-name': {}\n        'f:spec':\n          'f:replicas': {}\n          'f:revisionHistoryLimit': {}\n          'f:selector':\n            .: {}\n            'f:deploymentConfig': {}\n          'f:strategy':\n            'f:activeDeadlineSeconds': {}\n            'f:rollingParams':\n              .: {}\n              'f:intervalSeconds': {}\n              'f:maxSurge': {}\n              'f:maxUnavailable': {}\n              'f:timeoutSeconds': {}\n              'f:updatePeriodSeconds': {}\n            'f:type': {}\n          'f:template':\n            .: {}\n            'f:metadata':\n              .: {}\n              'f:creationTimestamp': {}\n              'f:labels':\n                .: {}\n                'f:deploymentConfig': {}\n                'f:name': {}\n            'f:spec':\n              .: {}\n              'f:containers':\n                .: {}\n                'k:{\"name\":\"ms-dtb-diagnostico\"}':\n                  'f:terminationMessagePolicy': {}\n                  .: {}\n                  'f:resources':\n                    .: {}\n                    'f:limits':\n                      .: {}\n                      'f:cpu': {}\n                      'f:memory': {}\n                    'f:requests':\n                      .: {}\n                      'f:cpu': {}\n                      'f:memory': {}\n                  'f:livenessProbe':\n                    .: {}\n                    'f:failureThreshold': {}\n                    'f:initialDelaySeconds': {}\n                    'f:periodSeconds': {}\n                    'f:successThreshold': {}\n                    'f:tcpSocket':\n                      .: {}\n                      'f:port': {}\n                    'f:timeoutSeconds': {}\n                  'f:env':\n                    'k:{\"name\":\"DATA_SOURCE\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:secretKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"AUTH_PASSWORD\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:secretKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"MAIL_FROM\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:configMapKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"TZ\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:value': {}\n                    'k:{\"name\":\"HTTPS_PROXY\"}':\n                      .: {}\n                      'f:name': {}\n                    'k:{\"name\":\"https_proxy\"}':\n                      .: {}\n                      'f:name': {}\n                    .: {}\n                    'k:{\"name\":\"USER\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:secretKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"URL_DTB\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:configMapKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"MAIL_TO\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:configMapKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"SMTP\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:configMapKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"HTTP_PROXY\"}':\n                      .: {}\n                      'f:name': {}\n                    'k:{\"name\":\"http_proxy\"}':\n                      .: {}\n                      'f:name': {}\n                    'k:{\"name\":\"PASSWORD\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:secretKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                    'k:{\"name\":\"AUTH_USERNAME\"}':\n                      .: {}\n                      'f:name': {}\n                      'f:valueFrom':\n                        .: {}\n                        'f:secretKeyRef':\n                          .: {}\n                          'f:key': {}\n                          'f:name': {}\n                  'f:readinessProbe':\n                    .: {}\n                    'f:failureThreshold': {}\n                    'f:httpGet':\n                      .: {}\n                      'f:path': {}\n                      'f:port': {}\n                      'f:scheme': {}\n                    'f:initialDelaySeconds': {}\n                    'f:periodSeconds': {}\n                    'f:successThreshold': {}\n                    'f:timeoutSeconds': {}\n                  'f:terminationMessagePath': {}\n                  'f:imagePullPolicy': {}\n                  'f:ports':\n                    .: {}\n                    'k:{\"containerPort\":8080,\"protocol\":\"TCP\"}':\n                      .: {}\n                      'f:containerPort': {}\n                      'f:protocol': {}\n                  'f:name': {}\n              'f:dnsPolicy': {}\n              'f:restartPolicy': {}\n              'f:schedulerName': {}\n              'f:securityContext': {}\n              'f:terminationGracePeriodSeconds': {}\n    - manager: openshift-controller-manager\n      operation: Update\n      apiVersion: apps.openshift.io/v1\n      time: '2021-03-09T14:03:42Z'\n      fieldsType: FieldsV1\n      fieldsV1:\n        'f:spec':\n          'f:template':\n            'f:spec':\n              'f:containers':\n                'k:{\"name\":\"ms-dtb-diagnostico\"}':\n                  'f:image': {}\n          'f:triggers': {}\n        'f:status':\n          'f:updatedReplicas': {}\n          'f:readyReplicas': {}\n          'f:conditions':\n            .: {}\n            'k:{\"type\":\"Available\"}':\n              .: {}\n              'f:lastTransitionTime': {}\n              'f:lastUpdateTime': {}\n              'f:message': {}\n              'f:status': {}\n              'f:type': {}\n            'k:{\"type\":\"Progressing\"}':\n              .: {}\n              'f:lastTransitionTime': {}\n              'f:lastUpdateTime': {}\n              'f:message': {}\n              'f:reason': {}\n              'f:status': {}\n              'f:type': {}\n          'f:details':\n            .: {}\n            'f:causes': {}\n            'f:message': {}\n          'f:replicas': {}\n          'f:availableReplicas': {}\n          'f:observedGeneration': {}\n          'f:unavailableReplicas': {}\n          'f:latestVersion': {}\n  namespace: pdd-portaldiagnostico-dev\n  labels:\n    app: ms-dtb-diagnostico\n    migration.openshift.io/migrated-by-migmigration: ed7e2104-4f5a-4528-92d8-27fc76fc4d6a\n    migration.openshift.io/migrated-by-migplan: 9b13a604-21d1-4237-b3fc-a01659ab2e72\n    velero.io/backup-name: f224e8b0-7d21-11eb-a549-7fe9ac5e826d-l4v8k\n    velero.io/restore-name: f224e8b0-7d21-11eb-a549-7fe9ac5e826d-kfwrf\nspec:\n  strategy:\n    type: Rolling\n    rollingParams:\n      updatePeriodSeconds: 1\n      intervalSeconds: 1\n      timeoutSeconds: 600\n      maxUnavailable: 25%\n      maxSurge: 25%\n    resources: {}\n    activeDeadlineSeconds: 21600\n  triggers:\n    - type: ImageChange\n      imageChangeParams:\n        automatic: true\n        containerNames:\n          - ms-dtb-diagnostico\n        from:\n          kind: ImageStreamTag\n          namespace: pdd-portaldiagnostico-dev\n          name: 'ms-dtb-diagnostico:latest'\n        lastTriggeredImage: >-\n          image-registry.openshift-image-registry.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:6f8c976443cb2c2286f69770948f89c58469109d4f7638057c17b9a4cc13f1b5\n  replicas: 1\n  revisionHistoryLimit: 10\n  test: false\n  selector:\n    deploymentConfig: ms-dtb-diagnostico\n  template:\n    metadata:\n      creationTimestamp: null\n      labels:\n        deploymentConfig: ms-dtb-diagnostico\n        name: ms-dtb-diagnostico\n    spec:\n      containers:\n        - resources:\n            limits:\n              cpu: 200m\n              memory: 512Mi\n            requests:\n              cpu: 100m\n              memory: 256Mi\n          readinessProbe:\n            httpGet:\n              path: /status\n              port: 8080\n              scheme: HTTP\n            initialDelaySeconds: 50\n            timeoutSeconds: 30\n            periodSeconds: 10\n            successThreshold: 1\n            failureThreshold: 3\n          terminationMessagePath: /dev/termination-log\n          name: ms-dtb-diagnostico\n          livenessProbe:\n            tcpSocket:\n              port: 8080\n            initialDelaySeconds: 50\n            timeoutSeconds: 30\n            periodSeconds: 10\n            successThreshold: 1\n            failureThreshold: 3\n          env:\n            - name: TZ\n              value: America/Argentina/Buenos_Aires\n            - name: HTTP_PROXY\n            - name: HTTPS_PROXY\n            - name: http_proxy\n            - name: https_proxy\n            - name: URL_DTB\n              valueFrom:\n                configMapKeyRef:\n                  name: ms-dtb-diagnostico-config\n                  key: URL_DTB\n            - name: MAIL_TO\n              valueFrom:\n                configMapKeyRef:\n                  name: ms-dtb-diagnostico-config\n                  key: MAIL_TO\n            - name: MAIL_FROM\n              valueFrom:\n                configMapKeyRef:\n                  name: ms-dtb-diagnostico-config\n                  key: MAIL_FROM\n            - name: SMTP\n              valueFrom:\n                configMapKeyRef:\n                  name: ms-dtb-diagnostico-config\n                  key: SMTP\n            - name: USER\n              valueFrom:\n                secretKeyRef:\n                  name: oracle\n                  key: USERNAME\n            - name: PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  name: oracle\n                  key: PASSWORD\n            - name: DATA_SOURCE\n              valueFrom:\n                secretKeyRef:\n                  name: oracle\n                  key: DATASOURCE\n            - name: AUTH_USERNAME\n              valueFrom:\n                secretKeyRef:\n                  name: dtb\n                  key: USERNAME\n            - name: AUTH_PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  name: dtb\n                  key: PASSWORD\n          ports:\n            - containerPort: 8080\n              protocol: TCP\n          imagePullPolicy: Always\n          terminationMessagePolicy: File\n          image: >-\n            image-registry.openshift-image-registry.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:6f8c976443cb2c2286f69770948f89c58469109d4f7638057c17b9a4cc13f1b5\n      restartPolicy: Always\n      terminationGracePeriodSeconds: 30\n      dnsPolicy: ClusterFirst\n      securityContext: {}\n      schedulerName: default-scheduler\nstatus:\n  observedGeneration: 5\n  details:\n    message: image change\n    causes:\n      - type: ImageChange\n        imageTrigger:\n          from:\n            kind: DockerImage\n            name: >-\n              image-registry.openshift-image-registry.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:6f8c976443cb2c2286f69770948f89c58469109d4f7638057c17b9a4cc13f1b5\n  availableReplicas: 1\n  unavailableReplicas: 0\n  latestVersion: 3\n  updatedReplicas: 1\n  conditions:\n    - type: Available\n      status: 'True'\n      lastUpdateTime: '2021-03-09T01:07:18Z'\n      lastTransitionTime: '2021-03-09T01:07:18Z'\n      message: Deployment config has minimum availability.\n    - type: Progressing\n      status: 'True'\n      lastUpdateTime: '2021-03-09T14:03:42Z'\n      lastTransitionTime: '2021-03-09T14:03:40Z'\n      reason: NewReplicationControllerAvailable\n      message: replication controller \"ms-dtb-diagnostico-3\" successfully rolled out\n  replicas: 1\n  readyReplicas: 1\n",
+					"settings":
+					{
+						"buffer_size": 16449,
+						"line_ending": "Unix",
+						"name": "kind: DeploymentConfig"
+					}
+				},
+				{
+					"contents": "apiVersion: apps.openshift.io/v1\nkind: DeploymentConfig\nmetadata:\n  annotations:\n    kubectl.kubernetes.io/last-applied-configuration: >\n      {\"apiVersion\":\"apps.openshift.io/v1\",\"kind\":\"DeploymentConfig\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"ms-dtb-diagnostico\"},\"name\":\"ms-dtb-diagnostico\",\"namespace\":\"pdd-portaldiagnostico-dev\"},\"spec\":{\"replicas\":1,\"selector\":{\"deploymentConfig\":\"ms-dtb-diagnostico\"},\"strategy\":{\"type\":\"Rolling\"},\"template\":{\"metadata\":{\"labels\":{\"deploymentConfig\":\"ms-dtb-diagnostico\",\"name\":\"ms-dtb-diagnostico\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"TZ\",\"value\":\"America/Argentina/Buenos_Aires\"},{\"name\":\"HTTP_PROXY\",\"value\":null},{\"name\":\"HTTPS_PROXY\",\"value\":null},{\"name\":\"http_proxy\",\"value\":null},{\"name\":\"https_proxy\",\"value\":null},{\"name\":\"URL_DTB\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"URL_DTB\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"MAIL_TO\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"MAIL_TO\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"MAIL_FROM\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"MAIL_FROM\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"SMTP\",\"valueFrom\":{\"configMapKeyRef\":{\"key\":\"SMTP\",\"name\":\"ms-dtb-diagnostico-config\"}}},{\"name\":\"USER\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"USERNAME\",\"name\":\"oracle\"}}},{\"name\":\"PASSWORD\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"PASSWORD\",\"name\":\"oracle\"}}},{\"name\":\"DATA_SOURCE\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"DATASOURCE\",\"name\":\"oracle\"}}},{\"name\":\"AUTH_USERNAME\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"USERNAME\",\"name\":\"dtb\"}}},{\"name\":\"AUTH_PASSWORD\",\"valueFrom\":{\"secretKeyRef\":{\"key\":\"PASSWORD\",\"name\":\"dtb\"}}}],\"image\":\"ms-dtb-diagnostico:latest\",\"livenessProbe\":{\"failureThreshold\":3,\"initialDelaySeconds\":50,\"periodSeconds\":10,\"successThreshold\":1,\"tcpSocket\":{\"port\":8080},\"timeoutSeconds\":30},\"name\":\"ms-dtb-diagnostico\",\"ports\":[{\"containerPort\":8080,\"protocol\":\"TCP\"}],\"readinessProbe\":{\"failureThreshold\":3,\"httpGet\":{\"path\":\"/status\",\"port\":8080,\"scheme\":\"HTTP\"},\"initialDelaySeconds\":50,\"periodSeconds\":10,\"successThreshold\":1,\"timeoutSeconds\":30},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"512Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"256Mi\"}}}]}},\"triggers\":[]}}\n  creationTimestamp: '2020-07-06T16:31:56Z'\n  generation: 232\n  labels:\n    app: ms-dtb-diagnostico\n  name: ms-dtb-diagnostico\n  namespace: pdd-portaldiagnostico-dev\n  resourceVersion: '689431801'\n  selfLink: >-\n    /apis/apps.openshift.io/v1/namespaces/pdd-portaldiagnostico-dev/deploymentconfigs/ms-dtb-diagnostico\n  uid: 3537bec6-bfa6-11ea-b769-005056b04e30\nspec:\n  replicas: 2\n  revisionHistoryLimit: 10\n  selector:\n    deploymentConfig: ms-dtb-diagnostico\n  strategy:\n    activeDeadlineSeconds: 21600\n    resources: {}\n    rollingParams:\n      intervalSeconds: 1\n      maxSurge: 25%\n      maxUnavailable: 25%\n      timeoutSeconds: 600\n      updatePeriodSeconds: 1\n    type: Rolling\n  template:\n    metadata:\n      creationTimestamp: null\n      labels:\n        deploymentConfig: ms-dtb-diagnostico\n        name: ms-dtb-diagnostico\n    spec:\n      containers:\n        - env:\n            - name: TZ\n              value: America/Argentina/Buenos_Aires\n            - name: HTTP_PROXY\n            - name: HTTPS_PROXY\n            - name: http_proxy\n            - name: https_proxy\n            - name: URL_DTB\n              valueFrom:\n                configMapKeyRef:\n                  key: URL_DTB\n                  name: ms-dtb-diagnostico-config\n            - name: MAIL_TO\n              valueFrom:\n                configMapKeyRef:\n                  key: MAIL_TO\n                  name: ms-dtb-diagnostico-config\n            - name: MAIL_FROM\n              valueFrom:\n                configMapKeyRef:\n                  key: MAIL_FROM\n                  name: ms-dtb-diagnostico-config\n            - name: SMTP\n              valueFrom:\n                configMapKeyRef:\n                  key: SMTP\n                  name: ms-dtb-diagnostico-config\n            - name: USER\n              valueFrom:\n                secretKeyRef:\n                  key: USERNAME\n                  name: oracle\n            - name: PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  key: PASSWORD\n                  name: oracle\n            - name: DATA_SOURCE\n              valueFrom:\n                secretKeyRef:\n                  key: DATASOURCE\n                  name: oracle\n            - name: AUTH_USERNAME\n              valueFrom:\n                secretKeyRef:\n                  key: USERNAME\n                  name: dtb\n            - name: AUTH_PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  key: PASSWORD\n                  name: dtb\n          image: >-\n            docker-registry.default.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:f0d454ee9dc809661645f1b693801a62851ebc9078c035aeed2eafd677bed94a\n          imagePullPolicy: Always\n          livenessProbe:\n            failureThreshold: 3\n            initialDelaySeconds: 50\n            periodSeconds: 10\n            successThreshold: 1\n            tcpSocket:\n              port: 8080\n            timeoutSeconds: 30\n          name: ms-dtb-diagnostico\n          ports:\n            - containerPort: 8080\n              protocol: TCP\n          readinessProbe:\n            failureThreshold: 3\n            httpGet:\n              path: /status\n              port: 8080\n              scheme: HTTP\n            initialDelaySeconds: 50\n            periodSeconds: 10\n            successThreshold: 1\n            timeoutSeconds: 30\n          resources:\n            limits:\n              cpu: 200m\n              memory: 512Mi\n            requests:\n              cpu: 100m\n              memory: 256Mi\n          terminationMessagePath: /dev/termination-log\n          terminationMessagePolicy: File\n      dnsPolicy: ClusterFirst\n      restartPolicy: Always\n      schedulerName: default-scheduler\n      securityContext: {}\n      terminationGracePeriodSeconds: 30\n  test: false\n  triggers:\n    - imageChangeParams:\n        automatic: true\n        containerNames:\n          - ms-dtb-diagnostico\n        from:\n          kind: ImageStreamTag\n          name: 'ms-dtb-diagnostico:latest'\n          namespace: pdd-portaldiagnostico-dev\n        lastTriggeredImage: >-\n          docker-registry.default.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:f0d454ee9dc809661645f1b693801a62851ebc9078c035aeed2eafd677bed94a\n      type: ImageChange\nstatus:\n  availableReplicas: 2\n  conditions:\n    - lastTransitionTime: '2021-02-24T20:32:32Z'\n      lastUpdateTime: '2021-02-24T20:32:35Z'\n      message: replication controller \"ms-dtb-diagnostico-111\" successfully rolled out\n      reason: NewReplicationControllerAvailable\n      status: 'True'\n      type: Progressing\n    - lastTransitionTime: '2021-03-09T16:26:00Z'\n      lastUpdateTime: '2021-03-09T16:26:00Z'\n      message: Deployment config has minimum availability.\n      status: 'True'\n      type: Available\n  details:\n    causes:\n      - imageTrigger:\n          from:\n            kind: DockerImage\n            name: >-\n              docker-registry.default.svc:5000/pdd-portaldiagnostico-dev/ms-dtb-diagnostico@sha256:f0d454ee9dc809661645f1b693801a62851ebc9078c035aeed2eafd677bed94a\n        type: ImageChange\n    message: image change\n  latestVersion: 111\n  observedGeneration: 232\n  readyReplicas: 2\n  replicas: 2\n  unavailableReplicas: 0\n  updatedReplicas: 2\n  ",
+					"settings":
+					{
+						"buffer_size": 7396,
+						"line_ending": "Unix",
+						"name": "apiVersion: apps.openshift.io/v1"
 					}
 				}
 			],
@@ -63,10 +223,14 @@
 			},
 			"file_history":
 			[
+				"/home/dboullon/Desktop/pasos para buildear una imagen",
+				"/home/dboullon/configTLS",
+				"/home/dboullon/auth-menshen-vs.yaml",
+				"/home/dboullon/Downloads/accesos.yaml"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 22.0
 			},
 			"find_in_files":
 			{
@@ -80,6 +244,23 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"error",
+					"errror",
+					"RuntimeMethodInfo",
+					"manager",
+					" - ",
+					"-",
+					"spec",
+					"env",
+					"cont",
+					"container",
+					"containers",
+					"template",
+					"te",
+					"template",
+					"spec",
+					"\"",
+					"fastify"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -97,32 +278,123 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 3,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/dboullon/Desktop/pasos para buildear una imagen",
+							"file": "/home/dboullon/Downloads/accesos.yaml",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 238,
+								"buffer_size": 2050,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										237,
-										237
+										118,
+										118
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2743,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										590,
+										590
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 78.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16449,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										11663,
+										11663
+									]
+								],
+								"settings":
+								{
+									"auto_name": "kind: DeploymentConfig",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 7566.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7396,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										759,
+										759
+									]
+								],
+								"settings":
+								{
+									"auto_name": "apiVersion: apps.openshift.io/v1",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 312.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -133,7 +405,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 22.0
 			},
 			"input":
 			{
@@ -171,7 +443,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 40.0
 			},
 			"save_all_on_build": true,
 			"select_file":

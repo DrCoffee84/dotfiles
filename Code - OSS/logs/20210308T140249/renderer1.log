@@ -1,0 +1,1 @@
+[2021-03-08 14:02:51.226] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dboullon/.config/qtile/.vscode'

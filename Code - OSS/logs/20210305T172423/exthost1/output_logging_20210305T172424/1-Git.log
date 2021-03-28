@@ -1,0 +1,71 @@
+Looking for git in: git
+Using git 2.30.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dboullon/.config
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/README.es.md
+> git ls-files --stage -- /home/dboullon/.config/qtile/README.es.md
+> git cat-file -s f3c9d997c919d5b8cc9be8e989be8d54b3a8545d
+> git show --textconv :qtile/get-pip.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/get-pip.py
+> git cat-file -s 9d4e940701a479bc0ef067fa060813f6ecfae2a0
+> git show --textconv :qtile/README.es.md
+> git ls-files --stage -- /home/dboullon/.config/qtile/README.es.md
+> git cat-file -s f3c9d997c919d5b8cc9be8e989be8d54b3a8545d
+> git check-ignore -v -z --stdin
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git show --textconv :qtile/README.es.md
+> git ls-files --stage -- /home/dboullon/.config/qtile/README.es.md
+> git cat-file -s f3c9d997c919d5b8cc9be8e989be8d54b3a8545d
+> git show --textconv :qtile/.gitignore
+> git ls-files --stage -- /home/dboullon/.config/qtile/.gitignore
+> git cat-file -s 6f26f7016827571686d2e472a8213183f08c7b3e
+> git show --textconv :qtile/config.json
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.json
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:Code - OSS/Cache/e6a87113c8ff36c1_0
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/Cache/e6a87113c8ff36c1_0
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/Cache/e6a87113c8ff36c1_0
+> git show --textconv HEAD:Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/expand-8a388923b8fee713c391edf393de3049.code
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/expand-8a388923b8fee713c391edf393de3049.code
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/expand-8a388923b8fee713c391edf393de3049.code
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/mergeConflictMain-91d0c6668c97ea60e9ef1fc877057e97.code
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/mergeConflictMain-91d0c6668c97ea60e9ef1fc877057e97.code
+> git ls-tree -l HEAD -- /home/dboullon/.config/Code - OSS/CachedData/622cb03f7e070a9670c94bae1a45d78d7181fbd4/mergeConflictMain-91d0c6668c97ea60e9ef1fc877057e97.code
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:obs-studio/basic/scenes/Sin Título.json
+> git ls-tree -l HEAD -- /home/dboullon/.config/obs-studio/basic/scenes/Sin Título.json
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:google-chrome/TLSDeprecationConfig/3/_metadata/verified_contents.json
+> git ls-tree -l HEAD -- /home/dboullon/.config/google-chrome/TLSDeprecationConfig/3/_metadata/verified_contents.json
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:google-chrome/TLSDeprecationConfig/3/manifest.json
+> git ls-tree -l HEAD -- /home/dboullon/.config/google-chrome/TLSDeprecationConfig/3/manifest.json
+> git show --textconv HEAD:google-chrome/Subresource Filter/Unindexed Rules/9.18.0/_metadata/verified_contents.json
+> git ls-tree -l HEAD -- /home/dboullon/.config/google-chrome/Subresource Filter/Unindexed Rules/9.18.0/_metadata/verified_contents.json
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:google-chrome/Subresource Filter/Unindexed Rules/9.18.0/manifest.json
+> git ls-tree -l HEAD -- /home/dboullon/.config/google-chrome/Subresource Filter/Unindexed Rules/9.18.0/manifest.json
+> git show --textconv :qtile/autostart.sh
+> git ls-files --stage -- /home/dboullon/.config/qtile/autostart.sh
+> git cat-file -s a178861ce96a799f72b1e8a1cdff8832a7260c5b
+> git show --textconv :qtile/themes/dracula.json
+> git ls-files --stage -- /home/dboullon/.config/qtile/themes/dracula.json
+> git cat-file -s 927ee1b6d96c1efac44751401ed661905e92e757
+> git check-ignore -v -z --stdin

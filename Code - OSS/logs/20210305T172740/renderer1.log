@@ -1,0 +1,2 @@
+[2021-03-05 17:27:40.925] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/etc/containers/.vscode'
+[2021-03-05 17:34:31.381] [renderer1] [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/etc/containers/storage.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/containers/storage.conf') file:///etc/containers/storage.conf

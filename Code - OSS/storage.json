@@ -2,8 +2,17 @@
     "telemetry.machineId": "af1fb1ffff71f6a4a7a7cee6a56430630351a7f05c5027dba73470fe8d02925a",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/dboullon/dotfiles",
             "file:///home/dboullon/.config/qtile",
+            "file:///etc/containers",
+            "file:///home/dboullon/git/devops",
+            "file:///home/dboullon/git/devops/angular-front",
+            "file:///home/dboullon/git/devops/angular-front/k8s/base",
             "file:///home/dboullon/git/flow-openshift-cicd-pipelines",
+            "file:///home/dboullon/git/devops/python-back/k8s/base",
+            "file:///home/dboullon/calculadora",
+            "file:///home/dboullon/git/webclient",
+            "file:///home/dboullon",
             "file:///home/dboullon/git/DrCoffee84/promos-menshen",
             "file:///home/dboullon/git/DrCoffee84",
             "file:///home/dboullon/git/promos-menshen",
@@ -12,6 +21,11 @@
             "file:///home/dboullon/.config/qtile/settings"
         ],
         "files2": [
+            "file:///etc/resolv.conf",
+            "file:///home/dboullon/ejemplo/main.js",
+            "file:///home/dboullon/.local/share/qtile/qtile.log",
+            "file:///home/dboullon/.bash",
+            "file:///home/dboullon/.bashrc",
             "file:///home/dboullon/.config/greenclip.cfg",
             "file:///home/dboullon/git/flow-openshift-cicd-pipelines/.%C3%A7",
             "file:///home/dboullon/git/DrCoffee84/promos-menshen/package.json",
@@ -30,7 +44,6 @@
             "file:///home/dboullon/git/webclient/openshift/template.yaml",
             "file:///home/dboullon/git/s2i-frontend/openshift/template.yaml",
             "file:///home/dboullon/Downloads/healthcheck.yaml",
-            "file:///home/dboullon/.bashrc",
             "file:///home/dboullon/.config/alacritty/themes/hyper.yaml",
             "file:///home/dboullon/.config/ls",
             "file:///home/dboullon/.config/alacritty/theme.py",
@@ -42,8 +55,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dboullon/.config/qtile",
-            "backupPath": "/home/dboullon/.config/Code - OSS/Backups/9be98c5940c3a034b7b559e1b7d7e591",
+            "backupPath": "/home/dboullon/.config/Code - OSS/Backups/1615904770027",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -98,13 +110,67 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dboullon/.config/qtile",
+                                        "external": "file:///home/dboullon/dotfiles",
+                                        "path": "/home/dboullon/dotfiles",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dotfiles"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/dboullon/.config/qtile",
                                         "path": "/home/dboullon/.config/qtile",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/qtile"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/containers",
+                                        "path": "/etc/containers",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/containers"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/git/devops",
+                                        "path": "/home/dboullon/git/devops",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/git/devops"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/git/devops/angular-front",
+                                        "path": "/home/dboullon/git/devops/angular-front",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/git/devops/angular-front"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/git/devops/angular-front/k8s/base",
+                                        "path": "/home/dboullon/git/devops/angular-front/k8s/base",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/git/devops/angular-front/k8s/base"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -121,70 +187,92 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/dboullon/git/DrCoffee84/promos-menshen",
-                                        "path": "/home/dboullon/git/DrCoffee84/promos-menshen",
+                                        "external": "file:///home/dboullon/git/devops/python-back/k8s/base",
+                                        "path": "/home/dboullon/git/devops/python-back/k8s/base",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git/DrCoffee84/promos-menshen"
+                                    "label": "~/git/devops/python-back/k8s/base"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/dboullon/git/DrCoffee84",
-                                        "path": "/home/dboullon/git/DrCoffee84",
+                                        "external": "file:///home/dboullon/calculadora",
+                                        "path": "/home/dboullon/calculadora",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git/DrCoffee84"
+                                    "label": "~/calculadora"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/dboullon/git/promos-menshen",
-                                        "path": "/home/dboullon/git/promos-menshen",
+                                        "external": "file:///home/dboullon/git/webclient",
+                                        "path": "/home/dboullon/git/webclient",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git/promos-menshen"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/.config/alacritty",
-                                        "path": "/home/dboullon/.config/alacritty",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/alacritty"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/.config",
-                                        "path": "/home/dboullon/.config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/.config/qtile/settings",
-                                        "path": "/home/dboullon/.config/qtile/settings",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/qtile/settings"
+                                    "label": "~/git/webclient"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/resolv.conf",
+                                        "path": "/etc/resolv.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/resolv.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/ejemplo/main.js",
+                                        "path": "/home/dboullon/ejemplo/main.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/ejemplo/main.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/.local/share/qtile/qtile.log",
+                                        "path": "/home/dboullon/.local/share/qtile/qtile.log",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/qtile/qtile.log"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/.bash",
+                                        "path": "/home/dboullon/.bash",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.bash"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dboullon/.bashrc",
+                                        "path": "/home/dboullon/.bashrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.bashrc"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -242,61 +330,6 @@
                                     "label": "~/config/qtile"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/git/webclient/openshift/README.md",
-                                        "path": "/home/dboullon/git/webclient/openshift/README.md",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/git/webclient/openshift/README.md"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/git/webclient/openshift/pipelines/cd/Jenkinsfile",
-                                        "path": "/home/dboullon/git/webclient/openshift/pipelines/cd/Jenkinsfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/git/webclient/openshift/pipelines/cd/Jenkinsfile"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/git/promos-menshen/openshift/template.yaml",
-                                        "path": "/home/dboullon/git/promos-menshen/openshift/template.yaml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/git/promos-menshen/openshift/template.yaml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/git/promos-menshen/openshift/pipelines/ci/Jenkinsfile",
-                                        "path": "/home/dboullon/git/promos-menshen/openshift/pipelines/ci/Jenkinsfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/git/promos-menshen/openshift/pipelines/ci/Jenkinsfile"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dboullon/.config/qtile/settings/keys.py",
-                                        "path": "/home/dboullon/.config/qtile/settings/keys.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/qtile/settings/keys.py"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -336,7 +369,7 @@
                         "label": "Save &&As..."
                     },
                     {
-                        "id": "workbench.action.files.saveAll",
+                        "id": "saveAll",
                         "label": "Save A&&ll",
                         "enabled": false
                     },
@@ -392,6 +425,10 @@
                                 {
                                     "id": "workbench.action.selectIconTheme",
                                     "label": "File &&Icon Theme"
+                                },
+                                {
+                                    "id": "workbench.action.selectProductIconTheme",
+                                    "label": "&&Product Icon Theme"
                                 }
                             ]
                         }
@@ -409,7 +446,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -485,10 +523,6 @@
                     {
                         "id": "editor.emmet.action.expandAbbreviation",
                         "label": "Emmet: E&&xpand Abbreviation"
-                    },
-                    {
-                        "id": "workbench.action.showEmmetCommands",
-                        "label": "E&&mmet..."
                     }
                 ]
             },
@@ -609,8 +643,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -629,8 +662,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -956,23 +988,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1034,7 +1071,8 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations"
+                        "label": "Open &&Configurations",
+                        "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1126,7 +1164,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1230,7 +1269,7 @@
                     },
                     {
                         "id": "workbench.action.toggleDevTools",
-                        "label": "&&Toggle Developer Tools"
+                        "label": "Toggle Developer Tools"
                     },
                     {
                         "id": "workbench.action.openProcessExplorer",
@@ -1677,5 +1716,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/dboullon/git"
+    "pickerWorkingDir": "/home/dboullon/git/devops/python-back/k8s"
 }

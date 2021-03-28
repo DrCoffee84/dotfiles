@@ -1,0 +1,126 @@
+Looking for git in: git
+Using git 2.30.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dboullon/.config
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/themes/dracula.json
+> git ls-files --stage -- /home/dboullon/.config/qtile/themes/dracula.json
+> git cat-file -s 927ee1b6d96c1efac44751401ed661905e92e757
+> git check-ignore -v -z --stdin
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/config.py'
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py'
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git check-ignore -v -z --stdin
+> git show --textconv :qtile/config.py'
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py'
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :qtile/config.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/config.py
+> git cat-file -s a830e25348e8200212fd39b12ff3344a8d3a2570
+> git show --textconv :qtile/settings/widgets.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/settings/widgets.py
+> git cat-file -s abb229bec55e6b294f817b2e7611e8ebb2905e4a
+> git check-ignore -v -z --stdin
+> git show --textconv :qtile/settings/widgets.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/settings/widgets.py
+> git cat-file -s abb229bec55e6b294f817b2e7611e8ebb2905e4a
+> git show --textconv :qtile/settings/widgets.py
+> git ls-files --stage -- /home/dboullon/.config/qtile/settings/widgets.py
+> git cat-file -s abb229bec55e6b294f817b2e7611e8ebb2905e4a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

@@ -1,0 +1,5 @@
+2021/03/10-09:07:38.938 5dc Reusing MANIFEST /home/dboullon/.config/google-chrome/Default/IndexedDB/https_remotedesktop.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/10-09:07:41.201 87a Level-0 table #5: started
+2021/03/10-09:07:41.207 87a Level-0 table #5: 2163 bytes OK
+2021/03/10-09:07:41.214 87a Delete type=0 #3
+2021/03/10-09:07:41.214 87a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

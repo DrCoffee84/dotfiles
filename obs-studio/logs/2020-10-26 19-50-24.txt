@@ -1,0 +1,234 @@
+19:50:24.658: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+19:50:24.658: CPU Speed: 3096.083MHz
+19:50:24.659: Physical Cores: 4, Logical Cores: 8
+19:50:24.659: Physical Memory: 7697MB Total, 6410MB Free
+19:50:24.659: Kernel Version: Linux 5.8.10-arch1-1
+19:50:24.659: Distribution: "Arch Linux" Unknown
+19:50:24.659: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+19:50:24.660: Portable mode: false
+19:50:24.749: OBS 25.0.8-2 (linux)
+19:50:24.749: ---------------------------------
+19:50:24.750: ---------------------------------
+19:50:24.750: audio settings reset:
+19:50:24.750: 	samples per sec: 44100
+19:50:24.750: 	speakers:        2
+19:50:24.759: ---------------------------------
+19:50:24.759: Initializing OpenGL...
+19:50:24.836: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+19:50:24.836: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.8, shading language 4.60
+19:50:24.856: ---------------------------------
+19:50:24.856: video settings reset:
+19:50:24.856: 	base resolution:   1366x768
+19:50:24.856: 	output resolution: 1364x768
+19:50:24.856: 	downscale filter:  Bicubic
+19:50:24.856: 	fps:               60/1
+19:50:24.856: 	format:            NV12
+19:50:24.856: 	YUV mode:          601/Partial
+19:50:24.856: NV12 texture support not available
+19:50:24.858: Audio monitoring device:
+19:50:24.858: 	name: Por defecto
+19:50:24.858: 	id: default
+19:50:24.858: ---------------------------------
+19:50:24.862: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+19:50:24.916: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:50:24.916: No blackmagic support
+19:50:24.974: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+19:50:24.974: 
+19:50:24.974: FFMPEG VAAPI supported
+19:50:24.978: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+19:50:24.978: 
+19:50:24.978: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+19:50:25.016: VLC found, VLC video source enabled
+19:50:25.016: ---------------------------------
+19:50:25.016:   Loaded Modules:
+19:50:25.016:     vlc-video.so
+19:50:25.016:     text-freetype2.so
+19:50:25.016:     rtmp-services.so
+19:50:25.016:     obs-x264.so
+19:50:25.016:     obs-transitions.so
+19:50:25.016:     obs-outputs.so
+19:50:25.016:     obs-filters.so
+19:50:25.016:     obs-ffmpeg.so
+19:50:25.016:     linux-v4l2.so
+19:50:25.016:     linux-pulseaudio.so
+19:50:25.016:     linux-jack.so
+19:50:25.016:     linux-decklink.so
+19:50:25.016:     linux-capture.so
+19:50:25.016:     linux-alsa.so
+19:50:25.016:     image-source.so
+19:50:25.016:     frontend-tools.so
+19:50:25.016:     decklink-ouput-ui.so
+19:50:25.016: ---------------------------------
+19:50:25.017: ==== Startup complete ===============================================
+19:50:25.018: Service '' not found
+19:50:25.022: All scene data cleared
+19:50:25.022: ------------------------------------------------
+19:50:25.026: pulse-input: Server name: 'pulseaudio 13.0'
+19:50:25.027: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+19:50:25.027: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+19:50:25.027: [Loaded global audio device]: 'Audio del escritorio'
+19:50:25.031: pulse-input: Server name: 'pulseaudio 13.0'
+19:50:25.031: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+19:50:25.031: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+19:50:25.031: [Loaded global audio device]: 'Mic/Aux'
+19:50:25.032: xshm-input: Geometry 1366x768 @ 0,0
+19:50:25.035: Switched to scene 'Escena'
+19:50:25.035: ------------------------------------------------
+19:50:25.035: Loaded scenes:
+19:50:25.035: - scene 'Escena':
+19:50:25.035:     - source: 'Captura de pantalla (XSHM)' (xshm_input)
+19:50:25.035: ------------------------------------------------
+19:50:25.584: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+19:50:25.584: 
+19:51:27.182: ---------------------------------
+19:51:27.182: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:51:27.182: [x264 encoder: 'simple_h264_recording'] profile: high
+19:51:27.183: [x264 encoder: 'simple_h264_recording'] settings:
+19:51:27.183: 	rate_control: CRF
+19:51:27.183: 	bitrate:      0
+19:51:27.183: 	buffer size:  0
+19:51:27.183: 	crf:          21
+19:51:27.183: 	fps_num:      60
+19:51:27.183: 	fps_den:      1
+19:51:27.183: 	width:        1364
+19:51:27.183: 	height:       768
+19:51:27.183: 	keyint:       250
+19:51:27.183: 
+19:51:27.193: ---------------------------------
+19:51:27.194: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+19:51:27.194: 
+19:51:27.217: ==== Recording Start ===============================================
+19:51:27.217: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/dboullon/2020-10-26 19-51-27.mp4'...
+19:51:41.040: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/dboullon/2020-10-26 19-51-27.mp4' stopped
+19:51:41.040: Output 'simple_file_output': stopping
+19:51:41.040: Output 'simple_file_output': Total frames output: 804
+19:51:41.040: Output 'simple_file_output': Total drawn frames: 829
+19:51:41.040: ==== Recording Stop ================================================
+19:52:21.895: ---------------------------------
+19:52:21.895: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:52:21.895: [x264 encoder: 'simple_h264_recording'] profile: high
+19:52:21.895: [x264 encoder: 'simple_h264_recording'] settings:
+19:52:21.895: 	rate_control: CRF
+19:52:21.895: 	bitrate:      0
+19:52:21.895: 	buffer size:  0
+19:52:21.895: 	crf:          21
+19:52:21.895: 	fps_num:      60
+19:52:21.895: 	fps_den:      1
+19:52:21.895: 	width:        1364
+19:52:21.895: 	height:       768
+19:52:21.895: 	keyint:       250
+19:52:21.895: 
+19:52:21.902: ---------------------------------
+19:52:21.904: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+19:52:21.904: 
+19:52:21.912: ==== Recording Start ===============================================
+19:52:21.912: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/dboullon/2020-10-26 19-52-21.mp4'...
+20:03:47.843: output simple_file_output paused
+20:10:04.231: output simple_file_output unpaused
+20:11:37.172: output simple_file_output paused
+20:17:19.531: output simple_file_output unpaused
+20:44:58.824: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/dboullon/2020-10-26 19-52-21.mp4' stopped
+20:44:58.824: Output 'simple_file_output': stopping
+20:44:58.824: Output 'simple_file_output': Total frames output: 146262
+20:44:58.824: Output 'simple_file_output': Total drawn frames: 189412 (189414 attempted)
+20:44:58.824: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2 (0,0%)
+20:44:58.824: ==== Recording Stop ================================================
+20:45:26.246: ---------------------------------
+20:45:26.246: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+20:45:26.246: [x264 encoder: 'simple_h264_recording'] profile: high
+20:45:26.247: [x264 encoder: 'simple_h264_recording'] settings:
+20:45:26.247: 	rate_control: CRF
+20:45:26.247: 	bitrate:      0
+20:45:26.247: 	buffer size:  0
+20:45:26.247: 	crf:          21
+20:45:26.247: 	fps_num:      60
+20:45:26.247: 	fps_den:      1
+20:45:26.247: 	width:        1364
+20:45:26.247: 	height:       768
+20:45:26.247: 	keyint:       250
+20:45:26.247: 
+20:45:26.253: ---------------------------------
+20:45:26.254: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+20:45:26.254: 
+20:45:26.261: ==== Recording Start ===============================================
+20:45:26.261: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/dboullon/2020-10-26 20-45-26.mp4'...
+21:00:11.642: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/dboullon/2020-10-26 20-45-26.mp4' stopped
+21:00:11.642: Output 'simple_file_output': stopping
+21:00:11.642: Output 'simple_file_output': Total frames output: 53095
+21:00:11.642: Output 'simple_file_output': Total drawn frames: 53123
+21:00:11.642: ==== Recording Stop ================================================
+21:21:01.689: ==== Shutting down ==================================================
+21:21:01.693: Switched to scene '(null)'
+21:21:01.700: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+21:21:01.700: pulse-input: Got 1104775 packets with 239668825 frames
+21:21:01.700: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+21:21:01.700: pulse-input: Got 556377 packets with 239756520 frames
+21:21:01.701: All scene data cleared
+21:21:01.701: ------------------------------------------------
+21:21:01.751: Freeing OBS context data
+21:21:01.760: [Scripting] Total detached callbacks: 0
+21:21:01.770: == Profiler Results =============================
+21:21:01.770: run_program_init: 582,815 ms
+21:21:01.770:  ┣OBSApp::AppInit: 9,463 ms
+21:21:01.770:  ┃ ┗OBSApp::InitLocale: 6,262 ms
+21:21:01.770:  ┗OBSApp::OBSInit: 469,774 ms
+21:21:01.770:    ┣obs_startup: 16,626 ms
+21:21:01.770:    ┗OBSBasic::OBSInit: 364,009 ms
+21:21:01.770:      ┣OBSBasic::InitBasicConfig: 0,069 ms
+21:21:01.770:      ┣OBSBasic::ResetAudio: 0,086 ms
+21:21:01.770:      ┣OBSBasic::ResetVideo: 108,184 ms
+21:21:01.770:      ┣OBSBasic::InitOBSCallbacks: 0,005 ms
+21:21:01.770:      ┣OBSBasic::InitHotkeys: 0,038 ms
+21:21:01.770:      ┣obs_load_all_modules: 157,767 ms
+21:21:01.770:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0,397 ms
+21:21:01.770:      ┃ ┣obs_init_module(frontend-tools.so): 33,575 ms
+21:21:01.770:      ┃ ┣obs_init_module(image-source.so): 0,006 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-alsa.so): 0,001 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-capture.so): 0,22 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-decklink.so): 0,104 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-jack.so): 0,001 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0,001 ms
+21:21:01.770:      ┃ ┣obs_init_module(linux-v4l2.so): 0,003 ms
+21:21:01.770:      ┃ ┣obs_init_module(obs-ffmpeg.so): 7,328 ms
+21:21:01.770:      ┃ ┃ ┗nvenc_check: 7,3 ms
+21:21:01.770:      ┃ ┣obs_init_module(obs-filters.so): 0,05 ms
+21:21:01.770:      ┃ ┣obs_init_module(obs-outputs.so): 0,003 ms
+21:21:01.770:      ┃ ┣obs_init_module(obs-transitions.so): 0,009 ms
+21:21:01.770:      ┃ ┣obs_init_module(obs-x264.so): 0,002 ms
+21:21:01.770:      ┃ ┣obs_init_module(rtmp-services.so): 2,67 ms
+21:21:01.770:      ┃ ┣obs_init_module(text-freetype2.so): 0,03 ms
+21:21:01.770:      ┃ ┗obs_init_module(vlc-video.so): 7,307 ms
+21:21:01.770:      ┣OBSBasic::ResetOutputs: 0,878 ms
+21:21:01.770:      ┣OBSBasic::CreateHotkeys: 0,041 ms
+21:21:01.770:      ┣OBSBasic::InitService: 3,022 ms
+21:21:01.770:      ┣OBSBasic::InitPrimitives: 0,279 ms
+21:21:01.770:      ┗OBSBasic::Load: 17,242 ms
+21:21:01.770: obs_hotkey_thread(25 ms): min=0,052 ms, median=0,433 ms, max=262,188 ms, 99th percentile=3,131 ms, 99,9986% below 25 ms
+21:21:01.770: audio_thread(Audio): min=0 ms, median=0,311 ms, max=17,477 ms, 99th percentile=2,09 ms
+21:21:01.770:  ┗receive_audio: min=0 ms, median=0,321 ms, max=17,428 ms, 99th percentile=1,837 ms, 0,757363 calls per parent call
+21:21:01.770:    ┣buffer_audio: min=0 ms, median=0,001 ms, max=0,262 ms, 99th percentile=0,005 ms, 0,822809 calls per parent call
+21:21:01.770:    ┗do_encode: min=0,009 ms, median=0,384 ms, max=17,424 ms, 99th percentile=1,884 ms, 0,822758 calls per parent call
+21:21:01.770:      ┗encode(simple_aac_recording): min=0,009 ms, median=0,378 ms, max=7,821 ms, 99th percentile=1,868 ms
+21:21:01.770: obs_graphics_thread(16,6667 ms): min=0,049 ms, median=5,719 ms, max=272,553 ms, 99th percentile=11,403 ms, 99,9988% below 16,667 ms
+21:21:01.770:  ┣tick_sources: min=0 ms, median=2,085 ms, max=270,673 ms, 99th percentile=5,18 ms
+21:21:01.770:  ┣output_frame: min=0,023 ms, median=3,575 ms, max=50,257 ms, 99th percentile=4,913 ms
+21:21:01.770:  ┃ ┣gs_context(video->graphics): min=0,023 ms, median=3,347 ms, max=50,006 ms, 99th percentile=4,361 ms
+21:21:01.770:  ┃ ┃ ┣render_video: min=0,02 ms, median=3,32 ms, max=49,966 ms, 99th percentile=4,289 ms
+21:21:01.770:  ┃ ┃ ┃ ┣render_main_texture: min=0,016 ms, median=0,161 ms, max=5,749 ms, 99th percentile=0,365 ms
+21:21:01.770:  ┃ ┃ ┃ ┣render_output_texture: min=0,015 ms, median=0,022 ms, max=1,036 ms, 99th percentile=0,083 ms, 0,746106 calls per parent call
+21:21:01.770:  ┃ ┃ ┃ ┣render_convert_texture: min=0,022 ms, median=0,032 ms, max=5,829 ms, 99th percentile=0,108 ms, 0,746106 calls per parent call
+21:21:01.770:  ┃ ┃ ┃ ┗stage_output_texture: min=1,951 ms, median=3,215 ms, max=49,584 ms, 99th percentile=4,01 ms, 0,746106 calls per parent call
+21:21:01.770:  ┃ ┃ ┣gs_flush: min=0 ms, median=0,002 ms, max=0,393 ms, 99th percentile=0,099 ms
+21:21:01.770:  ┃ ┃ ┗download_frame: min=0 ms, median=0,006 ms, max=1,078 ms, 99th percentile=0,022 ms, 0,746106 calls per parent call
+21:21:01.770:  ┃ ┗output_video_data: min=0,164 ms, median=0,251 ms, max=2,58 ms, 99th percentile=0,653 ms, 0,746097 calls per parent call
+21:21:01.770:  ┗render_displays: min=0,002 ms, median=0,756 ms, max=20,62 ms, 99th percentile=1,681 ms
+21:21:01.770: video_thread(video): min=0 ms, median=0,996 ms, max=26,888 ms, 99th percentile=2,559 ms
+21:21:01.770:  ┗receive_video: min=0 ms, median=0,994 ms, max=26,887 ms, 99th percentile=2,555 ms
+21:21:01.770:    ┗do_encode: min=0,662 ms, median=1,09 ms, max=26,886 ms, 99th percentile=2,586 ms, 0,822796 calls per parent call
+21:21:01.770:      ┗encode(simple_h264_recording): min=0,654 ms, median=1,069 ms, max=7,7 ms, 99th percentile=2,558 ms
+21:21:01.770: =================================================
+21:21:01.770: == Profiler Time Between Calls ==================
+21:21:01.770: obs_hotkey_thread(25 ms): min=25,095 ms, median=25,544 ms, max=287,334 ms, 41,885% within ±2% of 25 ms (0% lower, 58,115% higher)
+21:21:01.770: obs_graphics_thread(16,6667 ms): min=7,397 ms, median=16,667 ms, max=272,697 ms, 99,8967% within ±2% of 16,667 ms (0,0527313% lower, 0,0505853% higher)
+21:21:01.770: =================================================
+21:21:01.852: Number of memory leaks: 0

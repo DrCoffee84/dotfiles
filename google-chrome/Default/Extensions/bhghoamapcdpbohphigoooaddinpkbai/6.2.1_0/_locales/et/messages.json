@@ -1,0 +1,357 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Teave"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Konto"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Kasutajanimi"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Skaneeri QR kood"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Sisesta käsitsi"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " on lisatud."
+   },
+   "advanced": {
+      "message": "Lisavalikud"
+   },
+   "algorithm": {
+      "message": "Algoritm"
+   },
+   "autolock": {
+      "message": "Lukusta pärast"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Loenduripõhine"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Ajapõhine"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Jäädvustus ebaõnnestus, laadige leht uuesti ja proovige uuesti."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Ettevaatust! Teie kohalik kell liiga mööda, palun parandage enne jätkamist."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Sulge"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Kas te olete kindel, et soovite selle konto kustutada? Seda toimingut ei saa tagasi võtta."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "Ma mõistan, et kõik minu andmed kustutatakse pöördumatult."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Kinnita salasõna"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Kopeeritud"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Kehtiv salasõna"
+   },
+   "delete_all": {
+      "message": "Lähtesta autentikaator"
+   },
+   "delete_all_warning": {
+      "message": "See kustutab kõik teie andmed ja lähtestab Autentikaatori täielikult. Kustutatud andmeid ei saa taastada! Enne Autentikaatori lähtestamist peaksite kaaluma varukoopia loomist."
+   },
+   "digits": {
+      "message": "Numbrid"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Laadi alla varukoopia fail"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Laadi alla parooliga kaitstud varukoopia"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Hoiatus: Varukoopiad on krüpteerimata. Kasutamine enda vastutusel."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Muuda"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Krüpteeritud"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Tuvastamatu QR kood."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Kehtetu konto saladus"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "Eksport / Import"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Hoiatus: kõik varukoopiad on krüpteerimata. Kas soovite konto lisada mõnele teisele rakendusele? Suunake kursor paremas ülaservas mis tahes kontole ja klõpsake peidetud nupule."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Autentikaator genereerib teie brauseris mitmikautentimise koode."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Autentikaator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Autentikaator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Tagasiside"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Impordi varukoopia"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Impordi tekst varukoopia"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Impordi varukoopia fail"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Varukoopiate importimiseks peate sisestama õige salasõna."
+   },
+   "invalid": {
+      "message": "Kehtetu"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Väljastaja"
+   },
+   "loading": {
+      "message": "Laadimine..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Teie salasõna hoiustatakse kohapeal, palun muutke seda kohe turvalisuse menüüst."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Lukusta"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Logi välja"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "Käsitsi sünkroniseerimine"
+   },
+   "minutes": {
+      "message": "minutit"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Uus salasõna"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Ei"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Olgu"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Saate importida varukoopiaid mõnest teisest rakendusest."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Lisateave"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Teil on üks või mitu Steami või Blizzardi kontot. Krüpteerimata varukoopiad ei kasuta standardiseeritud varundusvormingut."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Kontoandmete dekrüpteerimiseks sisestage salasõna."
+   },
+   "period": {
+      "message": "Periood"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Salasõna"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Uut kontot ei saa lisada ega andmeid eksportida enne, kui kõik kontod on dekrüpteeritud. Enne jätkamist sisestage õige salasõna."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Salasõna ei kattu."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Hüpikakna režiim"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Mäleta salasõna"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Kas teil on varukoopia oma kontode jaoks? Ärge oodake, kuni on liiga hilja!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Eemalda"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Eelistused"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Suum"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Otsi"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Saladus"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Turvalisus"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Seda salasõna kasutatakse teie kontode krüpteerimiseks. Kui unustate salasõna, ei saa keegi teid aidata."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Seaded"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Kuva kõik kirjed"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Logi sisse"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Lähtekood"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "Talletuskoht"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "Valige, kus teie andmeid hoiustatakse. „Kohaliku” kasutamine salvestab teie andmed arvutisse. Sünkroonimisfunktsiooni kasutamine võimaldab brauseril sünkroonida teie andmeid pilvega, kui olete sünkroonimiskontole sisse logitud."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "Hoiustamine & varundamine"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Varundage oma andmed automaatselt kolmanda osapoole salvestusteenustesse."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Sünkrooni kell Google'ga"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Teema"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Tume"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Kõrge kontrastsus"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Hele"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Teie kontoga $SERVICE$ ühendamisel tekkis probleem, palun logige uuesti sisse.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Tõlkimine"
+   },
+   "type": {
+      "message": "Liik"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Uuenda"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Ebaõnnestus."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Õnnestus."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Automaatne täitmine"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Kõrge kontrastsus"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Jah"
+   }
+}

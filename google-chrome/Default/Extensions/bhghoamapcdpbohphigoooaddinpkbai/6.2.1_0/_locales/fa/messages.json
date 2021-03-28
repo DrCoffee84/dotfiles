@@ -1,0 +1,357 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "درباره"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "حساب"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "نام کاربری"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "اسکن QR Code"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "وارد کردن به طور دستی"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " اضافه شده است."
+   },
+   "advanced": {
+      "message": "پیشرفته"
+   },
+   "algorithm": {
+      "message": "الگوریتم"
+   },
+   "autolock": {
+      "message": "قفل کردن پس از"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "مبتنی بر شمارنده"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "مبتنی بر زمان"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "تصویر برداری موفق نبود، لطفا صفحه را ریفرش کرده و دوباره تلاش کنید."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "اخطار! ساعت محلی شما نادرست است، لطفا قبل از ادامه آن را تصحیح نمایید."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "بستن"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "آیا مطمئن هستید که می‌خواهید این حساب را حذف کنید؟ این عملیات قابل بازگردانی نیست."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "من متوجه هستم که تمام داده‌های من بدون امکان بازیابی حذف خواهند شد."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "تأیید کلمه عبور"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "کپی شد"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "کلمه عبور فعلی"
+   },
+   "delete_all": {
+      "message": "بازنشانی Authenticator"
+   },
+   "delete_all_warning": {
+      "message": "این تمام داده‌های شما را حذف کرده و افزونه Authenticator را به طور کامل بازنشانی می‌کند. شما بعداً قادر نخواهید بود داده‌های حذف شده را بازیابی کنید! شما باید قبل از بازنشانی افزونه Authenticator از داده‌های خود نسخه پشتیبان تهیه کنید."
+   },
+   "digits": {
+      "message": "ارقام"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "دانلود فایل پشتیبان"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "دانلود فایل پشتیبان محافظت شده توسط کلمه عبور"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "هشدار: فایل‌های پشتیبان‌ رمزنگاری نشده‌اند. با مسئولیت خودتان استفاده کنید."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "ویرایش"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "رمزنگاری شده"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "QR code شناسایی نشد."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "رمز حساب نامعتبر است"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "ایمپورت / اکسپورت"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "هشدار: تمام نسخه‌های پشتیبان رمزنگاری شده‌اند. آیا می‌خواهید یک حساب را به اپلیکیشن دیگری اضافه کنید؟ به قسمت سمت راست و بالای هر حساب رفته و دکمه مخفی را کلیک کنید."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "افزونه Authenticator کدهای تأیید هویت دو مرحله‌ای را در مرورگر شما تولید می‌کند."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "احراز هویت کننده"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "احراز هویت کننده"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "ﺑﺎﺯﺧﻮﺭﺩ"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "ایمپورت کردن پشتیبان"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "ایمپورت کردن پشتیبان متنی"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "ایمپورت کردن فایل پشتیبان"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "باید کلمه عبور صحیح را برای ایمپورت کردن فایل‌های پشتیبان ارائه دهید."
+   },
+   "invalid": {
+      "message": "نامعتبر"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "صادرکننده"
+   },
+   "loading": {
+      "message": "درحال بارگذاری..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "کلمه عبور شما به صورت محلی ذخیره شده است، لطفا هر چه زودتر آن را در منوی امنیت تغییر دهید."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "قفل کردن"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "خروج"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "همگام‌سازی دستی"
+   },
+   "minutes": {
+      "message": "دقیقه"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "کلمه عبور جدید"
+   },
+   "no": {
+      "description": "No.",
+      "message": "خیر"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "تایید"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "می‌توانید نسخه‌های پشتیبان را از سایر برنامه‌ها ایمپورت کنید."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "بیشتر بدانید"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "شما یک یا چند حساب Steam یا Blizzard دارید. نسخه‌های پشتیبان رمزنگاری نشده از فرمت پشتیبان استانداردسازی شده استفاده نخواهند کرد."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "کلمه عبور را برای رمزگشایی داده‌ها وارد نمایید."
+   },
+   "period": {
+      "message": "دوره زمانی"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "کلمه عبور"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "شما نمی‌توانید تا زمانی تمام حساب‌ها رمزگشایی نشده‌اند حساب جدیدی اضافه کنید یا داده‌ها را اکسپورت کنید. لطفا کلمه عبور صحیح را قبل از ادامه وارد نمایید."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "کلمه عبور منطبق نیست."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "حالت پاپ آپ"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "به خاطر سپردن کلمه عبور"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "آیا یک نسخه پشتیبان برای حساب‌های خود دارید؟ صبر نکنید تا خیلی دیر شود!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "حذف"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "تنظیمات"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "مقیاس"
+   },
+   "search": {
+      "description": "Search",
+      "message": "جستجو"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "رمز"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "امنیت"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "این کلمه عبور برای رمزنگاری حساب‌های شما استفاده خواهد شد. اگر این کلمه عبور را فراموش کنید راه دیگری برای بازگردانی آن وجود ندارد."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "تنظیمات"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "نمایش تمام ورودی‌ها"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "ورود"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "کد منبع"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "محل ذخیره‌سازی"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "انتخاب کنید که داده شما در کجا ذخیره شود. استفاده از گزینه \"محلی\" داده شما را بر روی کامپیوتر شخصی ذخیره می‌کند. استفاده از گزینه \"همگام‌سازی\" به مرورگر شما اجازه می‌دهد که در صورتی که وارد یک حساب همگام‌سازی شده‌اید، داده شما را با محیط ابری همگام‌سازی نماید."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "ذخیره سازی و تهیه نسخه پشتیبان"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "گرفتن نسخه پشتیبان خودکار از داده‌های شما توسط سرویس‌های شخص ثالث."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "همگام‌سازی ساعت با گوگل"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "زمینه"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "تیره"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "کنتراست بالا"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "روشن"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "مشکلی در ارتباط با حساب $SERVICE$ شما وجود داشت، لطفا دوباره وارد شوید.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "ترجمه"
+   },
+   "type": {
+      "message": "نوع"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "به‌روز رسانی"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "ناموفق بود."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "با موفقیت انجام شد."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "استفاده از قابلیت تکمیل خودکار"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "استفاده از کنتراست بالا"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "بله"
+   }
+}

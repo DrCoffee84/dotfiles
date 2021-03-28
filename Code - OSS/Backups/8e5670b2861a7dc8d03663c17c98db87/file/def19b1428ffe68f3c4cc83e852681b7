@@ -1,0 +1,11 @@
+file:///home/dboullon/git/devops/python-back/k8s/base/kustomization.yaml {"mtime":1603847374883,"ctime":1603847374883,"size":199,"etag":"35s9r05bf6d","orphaned":false}
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: example
+
+commonLabels:
+  app: python-example
+resources:
+  - python-example-deployment.yaml
+  - python-example-service.yaml

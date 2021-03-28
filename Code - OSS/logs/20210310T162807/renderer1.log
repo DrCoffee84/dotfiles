@@ -1,0 +1,1 @@
+[2021-03-10 16:28:08.214] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/dboullon/dotfiles/.vscode'
